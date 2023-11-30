@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.0.5",
     "@strapi/plugin-i18n": "4.15.4",
     "@strapi/plugin-users-permissions": "4.15.4",
     "@strapi/strapi": "4.15.4",
@@ -20,7 +19,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build --ignore-prompts",
+    "build": "strapi build",
     "strapi": "strapi"
   },
   "devDependencies": {},
